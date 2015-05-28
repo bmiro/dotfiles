@@ -1,0 +1,17 @@
+"set number
+set background=dark
+syntax on
+filetype plugin on
+set ofu=syntaxcomplete#Complete
+set tabstop=4
+set softtabstop=4
+set expandtab
+
+" Highlight current row
+hi CursorLine   cterm=NONE ctermbg=darkgrey ctermfg=None guibg=darkgrey guifg=white
+hi CursorColumn cterm=NONE ctermbg=darkgrey ctermfg=None guibg=darkgrey guifg=white
+" Comment next line and uncomment the nnoremat to enable \c toggling
+set cursorline cursorcolumn
+
+highlight ExtraWhitespace ctermbg=red guibg=red
+match ExtraWhitespace /\s\+$/
