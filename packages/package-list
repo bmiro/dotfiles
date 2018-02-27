@@ -1,7 +1,58 @@
-ffmpegthumbs
+# Hardware support
 gpdpocket-audio
 gpdpocket-power
 gpdpocket-xorg
 linux-firmware
 linux-image-4.14.0-11-generic
 linux-image-extra-4.14.0-11-generic
+
+# Desktop apps
+awesome
+xfce4-power-manager
+dolphin
+kdegraphics-thumbnailers
+libffmpegthumbnailer4v5
+ffmpegthumbs
+
+# Multimedia
+vlc
+gwenview
+ristretto
+okular
+dcraw
+rawtherapee
+kdenlive
+
+# Office
+inkscape
+libreoffice
+
+# Dev
+vim
+ipython3
+git
+
+# Network
+telegram-desktop
+network-manager
+network-manager-gnome
+network-manager-openvpn
+network-manager-openvpn-gnome
+network-manager-vpnc
+network-manager-vpnc-gnome
+network-manager-pptp
+network-manager-pptp-gnome
+network-manager-openconnect
+network-manager-openconnect-gnome
+network-manager-iodine
+network-manager-iodine-gnome
+wireshark
+aircrack-ng
+
+# Games
+hedgewars
+
+# Misc
+john
+p7zip-full
+
