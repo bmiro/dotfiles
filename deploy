@@ -6,3 +6,5 @@ rsync -av --delete --progress --stats dot_config/awesome/ ~/.config/awesome
 
 rsync -av --delete --progress --stats dot_vim/ ~/.vim
 
+cp sources.list.d/* /etc/apt/sources.list.d
+

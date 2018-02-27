@@ -1,0 +1,2 @@
+#  wget -O - https://apt.nexus511.net/repo/keyFile | apt-key add -  
+deb https://apt.nexus511.net/repo/dists/stable/main/binary /
