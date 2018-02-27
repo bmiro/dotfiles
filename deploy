@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cp dot_vimrc ~/.vimrc
+
+rsync -av --delete --progress --stats dot_config/awesome/ ~/.config/awesome
+
+rsync -av --delete --progress --stats dot_vim/ ~/.vim
+
