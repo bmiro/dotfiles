@@ -9,6 +9,7 @@ linux-image-extra-4.14.0-11-generic
 # Desktop apps
 awesome
 xfce4-power-manager
+thunar
 dolphin
 kdegraphics-thumbnailers
 libffmpegthumbnailer4v5

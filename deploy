@@ -8,3 +8,4 @@ rsync -av --delete --progress --stats dot_vim/ ~/.vim
 
 cp sources.list.d/* /etc/apt/sources.list.d
 
+cp bin/awesome-spawn-once /usr/local/bin
