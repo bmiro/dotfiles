@@ -6,6 +6,7 @@ set ofu=syntaxcomplete#Complete
 set tabstop=4
 set softtabstop=4
 set expandtab
+set mouse=""
 
 " Highlight current row
 hi CursorLine   cterm=NONE ctermbg=darkgrey ctermfg=None guibg=darkgrey guifg=white
