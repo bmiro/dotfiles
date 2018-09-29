@@ -1,17 +1,22 @@
 #!/bin/bash
 
+echo "Deploying vim config"
 cp dot_vimrc ~/.vimrc
+rsync -av --delete --progress --stats dot_vim/ ~/.vim
 
+echo "Deploying X session config (HiDPi)"
 cp dot_xsessionrc ~/.xsessionrc
 
+echo "Deploying awesome config (autostart programss...)"
 rsync -av --delete --progress --stats dot_config/awesome/ ~/.config/awesome
-
-rsync -av --delete --progress --stats dot_vim/ ~/.vim
+sudo -k cp bin/awesome-spawn-once /usr/local/bin
 
 #rsync -av --delete --progress --stats dot_profile.d/ ~/.profile.d
 
 #cp sources.list.d/* /etc/apt/sources.list.d
 
-sudo -k cp bin/awesome-spawn-once /usr/local/bin
+echo "Setting vim as default edito"
+sudo -k update-alternatives --set editor /usr/bin/vim.basic
+
 
 
