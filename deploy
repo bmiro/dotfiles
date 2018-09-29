@@ -6,9 +6,9 @@ rsync -av --delete --progress --stats dot_config/awesome/ ~/.config/awesome
 
 rsync -av --delete --progress --stats dot_vim/ ~/.vim
 
-rsync -av --delete --progress --stats dot_profile.d/ ~/.profile.d
+#rsync -av --delete --progress --stats dot_profile.d/ ~/.profile.d
 
-cp sources.list.d/* /etc/apt/sources.list.d
+#cp sources.list.d/* /etc/apt/sources.list.d
 
 cp bin/awesome-spawn-once /usr/local/bin
 

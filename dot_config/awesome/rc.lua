@@ -580,7 +580,7 @@ client.connect_signal("unfocus", function(c) c.border_color = beautiful.border_n
 -- Autostart Apps
 awful.util.spawn_with_shell("awesome-spawn-once nm-applet")
 awful.util.spawn_with_shell("awesome-spawn-once xfce4-power-manager")
-awful.util.spawn_with_shell("awesome-spawn-once /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1")
-awful.util.spawn_with_shell("awesome-spawn-once 'xscreensaver -nosplash'")
-awful.util.spawn_with_shell("awesome-spawn-once 'setxkbmap us intl'")
+--awful.util.spawn_with_shell("awesome-spawn-once /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1")
+--awful.util.spawn_with_shell("awesome-spawn-once 'xscreensaver -nosplash'")
+--awful.util.spawn_with_shell("awesome-spawn-once 'setxkbmap us intl'")
 -- End Autostart Apps

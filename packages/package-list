@@ -1,11 +1,3 @@
-# Hardware support
-gpdpocket-audio
-gpdpocket-power
-gpdpocket-xorg
-linux-firmware
-linux-image-4.14.0-11-generic
-linux-image-extra-4.14.0-11-generic
-
 # Desktop apps
 awesome
 firefox
